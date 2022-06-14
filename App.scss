@@ -1,0 +1,570 @@
+.topbottom {
+  text-align: center;
+  color: orange;
+  border-bottom: 2px solid black;
+}
+.Topbottom {
+  text-align: center;
+  color: orange;
+  border-top: 2px solid black;
+}
+.first-div {
+  text-align: center;
+  padding: 0;
+  margin-top: 1rem;
+
+  .starsImage {
+    width: 15vw;
+  }
+  h2 {
+    font-weight: bold;
+    color: orange;
+  }
+  .carInfo {
+    .car {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1rem;
+      font-weight: 500;
+    }
+    .firstTowIn {
+      display: flex;
+      flex-wrap: wrap;
+      .firstSlt {
+        padding: 0.2rem;
+        .css-1s2u09g-control {
+          width: 10vw !important;
+          border-radius: 8px !important;
+          margin: 0.1rem;
+          border: 1px solid gray;
+          background-color: rgb(251, 251, 251) !important;
+        }
+      }
+    }
+  }
+  .opinion {
+    .reviewtextstar {
+      // border: 1px solid black;
+      .reviewText {
+        margin: 0;
+        p {
+          margin-bottom: 0;
+          text-align: left;
+          // display: flex;
+          // border: 1px solid black;
+        }
+      }
+      .stars {
+        // border: 1px solid black;
+        // width: 24.5vw;
+        margin-left: 16.9rem;
+        p {
+          // display: flex;
+          // justify-content:flex-start;
+          text-align: left;
+          color: olivedrab;
+        }
+      }
+      .newStar {
+        color: orange;
+      }
+    }
+  }
+  .reviewTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    Label {
+      width: 9.5vw;
+      margin-top: 0.5rem;
+      text-align: end;
+      font-size: 1rem;
+    }
+    Input {
+      width: 29.5vw;
+      margin-left: 0.5rem;
+      border: 1px solid gray;
+      border-radius: 8px;
+      background-color: rgb(251, 251, 251);
+    }
+  }
+  .yourReview {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    Label {
+      width: 9.5vw;
+      margin-top: 0.5rem;
+      text-align: end;
+      font-size: 1rem;
+    }
+    textarea {
+      margin-left: 0.5rem;
+      border: 1px solid gray;
+      border-radius: 8px;
+      padding: 0.5rem;
+      background-color: rgb(251, 251, 251);
+    }
+    p {
+      text-align: end;
+      font-size: 0.8rem;
+      color: gray;
+    }
+  }
+  .fuel {
+    display: flex;
+    justify-content: space-evenly;
+    Label {
+      width: 8.5vw;
+      margin-top: 0.5rem;
+      text-align: end;
+      font-size: 1rem;
+    }
+    .inputFields {
+      display: flex;
+      justify-content: space-between;
+      width: 28vw;
+      Input {
+        width: 13.5vw;
+        padding: 0.5rem;
+        border: 1px solid gray;
+        border-radius: 8px;
+        background-color: rgb(251, 251, 251);
+      }
+    }
+    .km {
+      p {
+        font-size: 0.7rem;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+  .know {
+    display: flex;
+    justify-content: center;
+    .css-b62m3t-container {
+      width: 28.1vw;
+      margin-left: 5.4rem;
+      border: 1px solid gray;
+      border-radius: 8px;
+      background-color: rgb(251, 251, 251) !important;
+    }
+  }
+  .Suggestion {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .City {
+    display: flex;
+    margin-top: 1rem;
+    Label {
+      width: 9.5vw;
+      margin-top: 0.5rem;
+      text-align: end;
+      font-size: 1rem;
+    }
+    .css-b62m3t-container {
+      width: 28vw;
+      margin-left: 0.5rem;
+      text-align: left;
+      border-radius: 8px;
+      border: 1px solid gray;
+      background-color: rgb(251, 251, 251) !important;
+    }
+  }
+  .phone {
+    display: flex;
+    margin-top: 1rem;
+    Label {
+      width: 9.5vw;
+      margin-top: 0.5rem;
+      text-align: end;
+      font-size: 1rem;
+    }
+    .css-b62m3t-container {
+      width: 30vw;
+      margin-left: 0.5rem;
+      text-align: left;
+      border-radius: 8px;
+      border: 1px solid gray;
+      background-color: rgb(251, 251, 251) !important;
+    }
+  }
+}
+
+.second-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+// @media screen and (min-width: 1440px) {
+//   .first-div {
+//     .opinion {
+//       .container {
+//         .reviewtextstar {
+//           #types {
+//             margin-left: 0.6rem;
+//           }
+//         }
+//       }
+//     }
+//     .carInfo {
+//       .fisrtTwoIn {
+//         .firstSlt {
+//           .css-b62m3t-container {
+//             width: 12vw;
+//           }
+//         }
+//       }
+//     }
+//     .reviewTitle {
+//       Input {
+//         width: 26.5vw;
+//       }
+//     }
+//     .fuel {
+//       .inputFields {
+//         width: 27vw;
+//       }
+//     }
+//     .know {
+//       .css-b62m3t-container {
+//         width: 27.5vw;
+//         margin-left: 6rem;
+//         margin-top: 0.3rem;
+//         border-width: 1.5px;
+//       }
+//     }
+//     .city {
+//       .css-b62m3t-container {
+//         width: 27vw;
+//         margin-left: 0;
+//       }
+//       Label {
+//         margin-right: 0.7rem;
+//         width: 9vw;
+//       }
+//     }
+//     .phone {
+//       .css-b62m3t-container {
+//         width: 27.3;
+//       }
+//     }
+//   }
+// }
+@media screen and (max-width: 1440px) {
+  .first-div {
+    .reviewTitle {
+      Input {
+        // width: 26.5vw;
+      }
+    }
+    .know {
+      .css-b62m3t-container {
+        width: 27.9vw;
+        margin-left: 5.6rem;
+      }
+    }
+    .City {
+      .css-b62m3t-container {
+        width: 28vw;
+        margin-left: 0.6rem;
+      }
+    }
+    .phone {
+      .css-b62m3t-container {
+        width: 28vw;
+        margin-left: 0.6rem;
+      }
+    }
+    .opinion {
+      .reviewtextstar {
+        // border: 1px solid black;
+        .stars {
+          margin-left: 0;
+        }
+        #types {
+          width: 15vw;
+          margin-left: -1rem;
+          p {
+            width: 20vw;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .first-div {
+    .carInfo {
+      .firstTowIn {
+        .firstSlt {
+          .css-1s2u09g-control {
+            width: 14vw !important;
+          }
+        }
+      }
+    }
+    .reviewTitle {
+      Input {
+        width: 36.5vw;
+      }
+    }
+    .yourReview {
+      textarea {
+        margin-left: 1.3rem;
+        width: 34.5vw;
+      }
+    }
+    .fuel {
+      Label {
+        width: 9.5rem;
+        margin-right: 1rem;
+      }
+      .inputFields {
+        margin-right: 7rem;
+        Input {
+          width: 17vw;
+        }
+      }
+      .km {
+        p {
+          position: relative;
+          left: -2.5rem;
+        }
+      }
+    }
+    .know {
+      .css-b62m3t-container {
+        width: 34.6vw;
+        margin-left: 6rem;
+      }
+    }
+    .Suggestion {
+      margin-left: 2rem;
+    }
+    .City {
+      .css-b62m3t-container {
+        width: 36vw;
+      }
+    }
+    .phone {
+      .css-b62m3t-container {
+        width: 36vw;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .first-div {
+    .carInfo {
+      .firstTowIn {
+        .firstSlt {
+          .css-1s2u09g-control {
+            width: 13vw !important;
+          }
+        }
+      }
+    }
+    .opinion {
+      .reviewtextstar {
+        // border: 1px solid black;
+        .stars {
+          margin-left: 8rem;
+        }
+        #types {
+          width: 15vw;
+          margin-left: -2.5rem;
+          p {
+            width: 20vw;
+          }
+        }
+      }
+    }
+    .reviewTitle {
+      Input{
+        width: 33.5vw;
+        margin-left: 1.5rem;
+      }
+      Label {
+        width: 11.5vw;
+      }
+    }
+    .yourReview {
+      Label {
+        width: 11.5vw;
+      }
+      textarea {
+        width: 33.5vw;
+      }
+    }
+    .fuel {
+      .inputFields {
+        margin-right: 6rem;
+      }
+    }
+  }
+  .second-div {
+    .image1 {
+      img {
+        width: 35vw;
+        margin-left: 3rem;
+      }
+    }
+    .second {
+      img {
+        width: 35vw;
+        margin-left: 3rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .first-div {
+    .carInfo {
+      display: flex;
+      flex-wrap: nowrap;
+      .car{
+        width: 34vw;
+        margin-left: 2rem;
+      }
+      .firstTowIn {
+        .firstSlt {
+          .css-1s2u09g-control {
+            width: 23vw !important;
+          }
+        }
+      }
+    }
+    .opinion {
+      .reviewtextstar {
+        // border: 1px solid black;
+        .stars {
+          // margin-left: 8rem;
+        }
+        #types {
+          // width: 15vw;
+          // margin-left:-2.5rem;
+          p {
+            width: 28vw;
+          }
+        }
+      }
+    }
+    .reviewTitle {
+      Input {
+        width: 95%;
+      }
+      Label {
+        width: 53.5vw;
+        margin-left: 1.5rem;
+        display: flex;
+      }
+    }
+    .reviewTitleInput {
+      width: 70vw;
+      margin-left: 5.5rem;
+    }
+    .yourReview {
+      Label {
+        padding-right: 0.5rem;
+        width: 19vw;
+      }
+      textarea {
+        width: 70vw;
+        margin-left: 0;
+      }
+    }
+    .fuel {
+      Label {
+        width: 6.8vw;
+        text-align: left;
+        margin-right: 0;
+        margin-left: -1rem;
+      }
+      .inputFields{
+        Input{
+          width: 30vw;
+        }
+      }
+      .km {
+        p {
+          left: 1rem;
+        }
+      }
+    }
+    .know {
+      .css-b62m3t-container {
+        width: 61vw;
+        margin-left: 3rem;
+      }
+    }
+    .City {
+      Label {
+        margin-left: 1rem;
+      }
+      .css-b62m3t-container {
+        width: 73vw;
+      }
+    }
+    .phone {
+      Label{
+        margin-left: 0.5rem;
+      }
+      .css-b62m3t-container {
+        width: 71.5vw;
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}
+@media screen and (max-width:375px) {
+  .first-div{
+    .carInfo{
+      .car{
+        width: 34vw;
+        margin-left: 1.5rem;
+      }
+    }
+    .reviewTitle{
+      Input{
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+    .fuel{
+      .inputFields{
+        margin-left: -2rem;
+        Input{
+          width: 33vw;
+        }
+      }
+      Label{
+        width: 16.8vw;
+        margin-left: -0.8rem;
+        margin-right: 0;
+      }
+      .km{
+        p{
+          left: 1.5rem;
+        }
+      }
+    }
+    .know{
+      .css-b62m3t-container{
+        width: 67vw;
+        margin-left: 3rem;
+      }
+    }
+    .phone{
+      Label{
+        margin-left: 0.5rem;
+      }
+      .css-b62m3t-container{
+        width: 71vw;
+      }
+    }
+  }
+}
